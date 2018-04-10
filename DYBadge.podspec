@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYBadge'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Pop up badge, written in Swift 4. Add as subview to any UIView object'
   s.swift_version = '4.0'
 
