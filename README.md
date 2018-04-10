@@ -95,7 +95,10 @@ Check out the following examples.
 
 ## Change log
 
-#### [Version 1.0](https://github.com/DominikButz/DYBadgeButton/releases/tag/1.0)
+#### [Version 1.0.1](https://github.com/DominikButz/DYBadge/releases/tag/1.0.1)
+missing source files in example - fix
+
+#### [Version 1.0](https://github.com/DominikButz/DYBadge/releases/tag/1.0)
 see deprecated project DYBadgeButton for previous versions. 
 
 
