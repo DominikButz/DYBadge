@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4085C8C207B6146009BB7BF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B4085C8B207B6146009BB7BF /* LICENSE */; };
+		B4085CAB207C6C19009BB7BF /* DYBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4085CAA207C6C19009BB7BF /* DYBadge.swift */; };
+		B4085CAD207C6C26009BB7BF /* DYBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = B4085CAC207C6C26009BB7BF /* DYBadge.h */; };
 		B4A44179207B5552008A868E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A44178207B5552008A868E /* AppDelegate.swift */; };
 		B4A4417B207B5552008A868E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4417A207B5552008A868E /* ViewController.swift */; };
 		B4A4417E207B5552008A868E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A4417C207B5552008A868E /* Main.storyboard */; };
 		B4A44180207B5553008A868E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A4417F207B5553008A868E /* Assets.xcassets */; };
 		B4A44183207B5553008A868E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A44181207B5553008A868E /* LaunchScreen.storyboard */; };
 		B4A44193207B5580008A868E /* DYBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A44191207B5580008A868E /* DYBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4A4419D207B5627008A868E /* DYBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4419C207B5626008A868E /* DYBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B4085C8B207B6146009BB7BF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B4085CAA207C6C19009BB7BF /* DYBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYBadge.swift; sourceTree = "<group>"; };
+		B4085CAC207C6C26009BB7BF /* DYBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBadge.h; sourceTree = "<group>"; };
 		B4A44175207B5552008A868E /* DYBadgeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYBadgeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A44178207B5552008A868E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A4417A207B5552008A868E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		B4A4418F207B5580008A868E /* DYBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A44191207B5580008A868E /* DYBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYBadge.h; sourceTree = "<group>"; };
 		B4A44192207B5580008A868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4A4419C207B5626008A868E /* DYBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +107,9 @@
 		B4A44190207B5580008A868E /* DYBadge */ = {
 			isa = PBXGroup;
 			children = (
-				B4085C8B207B6146009BB7BF /* LICENSE */,
+				B4085CAC207C6C26009BB7BF /* DYBadge.h */,
+				B4085CAA207C6C19009BB7BF /* DYBadge.swift */,
 				B4A44191207B5580008A868E /* DYBadge.h */,
-				B4A4419C207B5626008A868E /* DYBadge.swift */,
 				B4A44192207B5580008A868E /* Info.plist */,
 			);
 			path = DYBadge;
@@ -123,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A44193207B5580008A868E /* DYBadge.h in Headers */,
+				B4085CAD207C6C26009BB7BF /* DYBadge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +212,6 @@
 			files = (
 				B4A44183207B5553008A868E /* LaunchScreen.storyboard in Resources */,
 				B4A44180207B5553008A868E /* Assets.xcassets in Resources */,
-				B4085C8C207B6146009BB7BF /* LICENSE in Resources */,
 				B4A4417E207B5552008A868E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A4419D207B5627008A868E /* DYBadge.swift in Sources */,
+				B4085CAB207C6C19009BB7BF /* DYBadge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
