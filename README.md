@@ -96,6 +96,8 @@ Check out the following examples.
 ![DYBadgeButton example](./gitResources/DYBadgeExample2-small.gif "Badge Button example 2") 
 
 ## Change log
+#### [Version 1.0.2](https://github.com/DominikButz/DYBadge/releases/tag/1.0.2)
+adding podfile, readme update
 
 #### [Version 1.0.1](https://github.com/DominikButz/DYBadge/releases/tag/1.0.1)
 missing source files in example - fix
