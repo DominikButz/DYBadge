@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Foundation
 
 public class DYBadge: UILabel {
 
@@ -221,7 +220,7 @@ public class DYBadge: UILabel {
 }
 
 
-@objc public extension UIView {
+public extension UIView {
     
     /// Finds the first occurence of a DYBadge if it exists among the view's subviews
     /// - Returns: a DYBadge object
@@ -238,7 +237,7 @@ public class DYBadge: UILabel {
     
 }
 
-@objc public extension UIButton {
+public extension UIButton {
     
     private func alignImageAndTitleVertically(padding: CGFloat = 6.0) {
 

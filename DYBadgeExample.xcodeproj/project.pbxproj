@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B4085CAB207C6C19009BB7BF /* DYBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4085CAA207C6C19009BB7BF /* DYBadge.swift */; };
-		B42958FE207CEA890057007B /* DYBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = B42958FD207CEA890057007B /* DYBadge.h */; };
+		B4085CAD207C6C26009BB7BF /* DYBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = B4085CAC207C6C26009BB7BF /* DYBadge.h */; };
 		B4A44179207B5552008A868E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A44178207B5552008A868E /* AppDelegate.swift */; };
 		B4A4417B207B5552008A868E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4417A207B5552008A868E /* ViewController.swift */; };
 		B4A4417E207B5552008A868E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A4417C207B5552008A868E /* Main.storyboard */; };
 		B4A44180207B5553008A868E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A4417F207B5553008A868E /* Assets.xcassets */; };
 		B4A44183207B5553008A868E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A44181207B5553008A868E /* LaunchScreen.storyboard */; };
+		B4A44193207B5580008A868E /* DYBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A44191207B5580008A868E /* DYBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 
 /* Begin PBXFileReference section */
 		B4085CAA207C6C19009BB7BF /* DYBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYBadge.swift; sourceTree = "<group>"; };
-		B42958FD207CEA890057007B /* DYBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBadge.h; sourceTree = "<group>"; };
+		B4085CAC207C6C26009BB7BF /* DYBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBadge.h; sourceTree = "<group>"; };
 		B4A44175207B5552008A868E /* DYBadgeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYBadgeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A44178207B5552008A868E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A4417A207B5552008A868E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		B4A44182207B5553008A868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4A44184207B5553008A868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4A4418F207B5580008A868E /* DYBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A44191207B5580008A868E /* DYBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYBadge.h; sourceTree = "<group>"; };
 		B4A44192207B5580008A868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,8 +107,9 @@
 		B4A44190207B5580008A868E /* DYBadge */ = {
 			isa = PBXGroup;
 			children = (
+				B4085CAC207C6C26009BB7BF /* DYBadge.h */,
 				B4085CAA207C6C19009BB7BF /* DYBadge.swift */,
-				B42958FD207CEA890057007B /* DYBadge.h */,
+				B4A44191207B5580008A868E /* DYBadge.h */,
 				B4A44192207B5580008A868E /* Info.plist */,
 			);
 			path = DYBadge;
@@ -119,7 +122,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B42958FE207CEA890057007B /* DYBadge.h in Headers */,
+				B4A44193207B5580008A868E /* DYBadge.h in Headers */,
+				B4085CAD207C6C26009BB7BF /* DYBadge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
