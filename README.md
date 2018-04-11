@@ -1,6 +1,8 @@
 # DYBadge
 
-
+[![Version](https://img.shields.io/cocoapods/v/DYBadge.svg?style=flat)](http://cocoapods.org/pods/DYBadge)
+[![License](https://img.shields.io/cocoapods/l/DYBadge.svg?style=flat)](http://cocoapods.org/pods/DYBadge)
+[![Platform](https://img.shields.io/cocoapods/p/DYBadge.svg?style=flat)](http://cocoapods.org/pods/DYBadge)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 
@@ -94,6 +96,8 @@ Check out the following examples.
 ![DYBadgeButton example](./gitResources/DYBadgeExample2-small.gif "Badge Button example 2") 
 
 ## Change log
+#### [Version 1.0.2](https://github.com/DominikButz/DYBadge/releases/tag/1.0.2)
+adding podfile, readme update
 
 #### [Version 1.0.1](https://github.com/DominikButz/DYBadge/releases/tag/1.0.1)
 missing source files in example - fix
