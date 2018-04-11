@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B4085CAB207C6C19009BB7BF /* DYBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4085CAA207C6C19009BB7BF /* DYBadge.swift */; };
-		B4085CAD207C6C26009BB7BF /* DYBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = B4085CAC207C6C26009BB7BF /* DYBadge.h */; };
+		B4085CAD207C6C26009BB7BF /* DYBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = B4085CAC207C6C26009BB7BF /* DYBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4A44179207B5552008A868E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A44178207B5552008A868E /* AppDelegate.swift */; };
 		B4A4417B207B5552008A868E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4417A207B5552008A868E /* ViewController.swift */; };
 		B4A4417E207B5552008A868E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A4417C207B5552008A868E /* Main.storyboard */; };

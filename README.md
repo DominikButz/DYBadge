@@ -22,12 +22,21 @@ To checkout the example project, simply clone the repo or download the zip file.
 ## Installation
 
 
-Installation through Carthage is recommended. Simply add the following line to your Cartfile:
+Installation through Cocoapods or Carthage is recommended. 
+
+Carthage: Simply add the following line to your Cartfile.
+
 github "DominikButz/DYBadge" ~> 1.0
 
 Check out the version history below for the current version.
 
 Afterwards, run "carthage update DYBadge --platform iOS" in the root directory of your project. Follow the steps described in the carthage project on github (click on the carthage compatible shield above). 
+
+Alternatively, install through Cocoapods:
+
+target '[project name]' do
+ 	pod 'DYBadge', '~> 1.0
+end
 
 Make sure to import DYBadge into your View Controller subclass:
 
@@ -96,6 +105,8 @@ Check out the following examples.
 ![DYBadgeButton example](./gitResources/DYBadgeExample2-small.gif "Badge Button example 2") 
 
 ## Change log
+#### [Version 1.0.3](https://github.com/DominikButz/DYBadge/releases/tag/1.0.3)
+public header fix for carthage
 #### [Version 1.0.2](https://github.com/DominikButz/DYBadge/releases/tag/1.0.2)
 adding podfile, readme update
 
