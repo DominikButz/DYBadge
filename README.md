@@ -106,6 +106,8 @@ Check out the following examples.
 ![DYBadgeButton example](./gitResources/DYBadgeExample2-small.gif "Badge Button example 2") 
 
 ## Change log
+#### [Version 1.1.1](https://github.com/DominikButz/DYBadge/releases/tag/1.1.1)
+Minor build fix.
 #### [Version 1.1](https://github.com/DominikButz/DYBadge/releases/tag/1.1)
 The badge is now placed by default at the origin of the superview. Adjust your offsetX and offsetY values accordingly - see the example above. 
 #### [Version 1.0.3](https://github.com/DominikButz/DYBadge/releases/tag/1.0.3)
