@@ -186,6 +186,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC7DYBadge7DYBadge")
 @interface DYBadge : UILabel
+/// The text of the badge
+@property (nonatomic, copy) NSString * _Nullable badgeString;
+- (void)awakeFromNib;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 @end
