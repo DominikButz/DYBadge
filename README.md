@@ -8,7 +8,7 @@
 
  DYBadge (written in Swift) is a UILabel subclass that can be added as subview to any UIView and its subclasses (except for UIImageView). If the string value of the badge changes from nil (or "nullish") to a valid string value at runtime the badge will appear with a pop up effect. If it switches back to a "nullish" value, it will shrink and disappear.
 The class also includes a UIButton  class function (extension) to create a button with an image and a title, which is positioned underneath the image. 
-**since version 2.0, the xOffset and yOffset values have been removed, as well as badgeFont, badgeColor and badgeTextColor. Simply use the UILabel properties to set these values (don't use badge.text directly!).**
+**since version 2.0, the xOffset and yOffset values have been removed, as well as badgeFont, badgeColor and badgeTextColor. Simply use the UILabel properties to set these values, e.g. textColor, backgroundColor etc. (don't use myBadge.text directly, use badgeString instead).**
 
 ## Example
 
@@ -17,8 +17,7 @@ To checkout the example project, simply clone the repo or download the zip file.
 ## Features
 
 * Create in code or get a UILabel in Interface Builder and change its class to DYBadge 
-* UIDesignable class with badgeString as UIInspectable
-* Create a UIButton with image and a button title placed underneath the image and add a DYBadge (see the extension).
+* Create a UIButton with image and a button title placed underneath the image and add a DYBadge (see the extension in the DYBadge.swift file).
 
 ## Installation
 
@@ -107,6 +106,8 @@ Check out the following examples.
 ![DYBadgeButton example](./gitResources/DYBadgeExample2-small.gif "Badge Button example 2") 
 
 ## Change log
+#### [Version 2.0.2](https://github.com/DominikButz/DYBadge/releases/tag/2.0.2)
+removed designable and inspectable key words due to error messages in Interface builder. 
 #### [Version 2.0.1](https://github.com/DominikButz/DYBadge/releases/tag/2.0.1)
 source file path correction in podspec file.
 #### [Version 2.0](https://github.com/DominikButz/DYBadge/releases/tag/2.0)

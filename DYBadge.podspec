@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYBadge'
-  s.version          = '2.0.1'
+  s.version          = '2.0.2'
   s.summary          = 'Pop up badge, written in Swift. Add as subview to any UIView object.'
   s.swift_version = '4.0'
 
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'DYBadgeExample/DYBadge/**/*'
+  s.source_files = 'DYBadge/**/*'
   
   # s.resource_bundles = {
   #   'DYBadge' => ['DYBadge/Assets/*.png']
