@@ -8,10 +8,10 @@
 
 import UIKit
 
-public class DYBadge: UILabel {
+@IBDesignable public class DYBadge: UILabel {
 
     /// The text of the badge
-   open var badgeString:String? {
+ @IBInspectable  open var badgeString:String? {
         didSet{
             
             let wasNullishBefore = self.isNullish(self.text)

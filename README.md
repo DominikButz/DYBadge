@@ -105,7 +105,23 @@ Check out the following examples.
 ```
 ![DYBadgeButton example](./gitResources/DYBadgeExample2-small.gif "Badge Button example 2") 
 
+
+## Cocoapods 1.5 error workaround. 
+An error message might be displayed (failed to load designables.... no suitable image found) and some storyboard elements might not be drawn correctly. This won't stop xcode from building your code. To remove this annoying error, add the code below to the end of your podfile:
+
+// Workaround for Cocoapods v.1.5 issue #7606
+
+post_install do |installer|
+    installer.pods_project.build_configurations.each do |config|
+        config.build_settings.delete('CODE_SIGNING_ALLOWED')
+        config.build_settings.delete('CODE_SIGNING_REQUIRED')
+    end
+end
+
+
 ## Change log
+#### [Version 2.0.3](https://github.com/DominikButz/DYBadge/releases/tag/2.0.3)
+re-added designable and inspectable key words. see the error workaround above. 
 #### [Version 2.0.2](https://github.com/DominikButz/DYBadge/releases/tag/2.0.2)
 removed designable and inspectable key words due to error messages in Interface builder. 
 #### [Version 2.0.1](https://github.com/DominikButz/DYBadge/releases/tag/2.0.1)
