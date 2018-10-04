@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYBadge'
-  s.version          = '2.0.3'
+  s.version          = '2.0.4'
   s.summary          = 'Pop up badge, written in Swift. Add as subview to any UIView object.'
   s.swift_version = '4.0'
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/DominikButz/DYBadge.git', :tag => s.version.to_s }
 
 
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'DYBadge/**/*'
   

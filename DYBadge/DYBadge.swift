@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable public class DYBadge: UILabel {
 
     /// The text of the badge
- @IBInspectable  open var badgeString:String? {
+@IBInspectable open var badgeString:String? {
         didSet{
             
             let wasNullishBefore = self.isNullish(self.text)
@@ -122,19 +122,19 @@ import UIKit
     
     private func animateBadgeTransform(shouldHide: Bool, transform: CGAffineTransform) {
         
-        let springValue:CGFloat = shouldHide ? 0 : 0.4
-        
+   
         if shouldHide == false {
             
             self.isHidden = false
             
         }
 
-        UIView.animate(withDuration: 0.3, delay: 0.0, usingSpringWithDamping: springValue, initialSpringVelocity: 0, options: [], animations: {
+
+        UIView.animate(withDuration: 0.3, delay: 0.0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: [], animations: {
             self.transform = transform
-            
+
         }) { (completed) in
-            
+
             if shouldHide {
                 self.isHidden = true
             }
