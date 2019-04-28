@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/Dominik/Documents/Programmieren/Libraries/DYBadgeExample/Build/Products/Debug-iphonesimulator/DYBadge.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/Dominik/Documents/Programmieren/Libraries/DYBadgeExample/Build/Intermediates.noindex/DYBadgeExample.build/Debug-iphonesimulator/DYBadge.build/unextended-module.modulemap",
+    }]
+  }]
+}

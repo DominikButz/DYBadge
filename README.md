@@ -120,6 +120,8 @@ end
 
 
 ## Change log
+#### [Version 2.0.4](https://github.com/DominikButz/DYBadge/releases/tag/2.0.5)
+minor corrections, settings update to swift 5.0 
 #### [Version 2.0.4](https://github.com/DominikButz/DYBadge/releases/tag/2.0.4)
 Changed spring damping value in animateBadgeTransform function. The former setting 
 could make a device or the simulator freeze (Xcode 10 / iOS 12) when the badge value was set to a null-type value. 

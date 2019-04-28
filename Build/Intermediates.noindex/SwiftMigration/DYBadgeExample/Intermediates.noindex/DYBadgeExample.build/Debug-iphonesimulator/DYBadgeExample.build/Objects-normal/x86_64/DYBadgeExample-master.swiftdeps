@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "eb02c868e77e0b666a8420a626ba50d9"
+build_time: [1556434114, 421081000]
+inputs:
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYBadgeExample/DYBadgeExample/ViewController.swift": [1524303445, 0]
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYBadgeExample/DYBadgeExample/AppDelegate.swift": [1538572526, 0]

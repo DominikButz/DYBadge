@@ -1,0 +1,11 @@
+framework module DYBadge {
+  umbrella header "DYBadge.h"
+
+  export *
+  module * { export * }
+}
+
+module DYBadge.Swift {
+    header "DYBadge-Swift.h"
+    requires objc
+}

@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYBadge'
-  s.version          = '2.0.4'
+  s.version          = '2.0.5'
   s.summary          = 'Pop up badge, written in Swift. Add as subview to any UIView object.'
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-    Pop up badge which can be added to any UIView or UIView subclass (written in Swift 4.0).
+    Pop up badge which can be added to any UIView or UIView subclass (written in Swift).
                        DESC
 
   s.homepage         = 'https://github.com/DominikButz/DYBadge'
@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'DYBadge/**/*'
+  s.exclude_files = "DYBadge/**/*.plist"
   
   # s.resource_bundles = {
   #   'DYBadge' => ['DYBadge/Assets/*.png']

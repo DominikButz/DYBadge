@@ -193,7 +193,7 @@ public extension UIView {
     
     /// Finds the first occurence of a DYBadge if it exists among the view's subviews
     /// - Returns: a DYBadge object
-   public func getBadge()->DYBadge? {
+    func getBadge()->DYBadge? {
 
     for view in self.subviews {
             if let badge  = view as? DYBadge {
@@ -243,7 +243,7 @@ public extension UIButton {
     ///    - font: the font of the title
     ///  -  frame: the frame of the button's image view. the tint color
     /// - Returns: a UIButton
-    public class func createImageTitleButton(image: UIImage, title: String, font: UIFont, frame: CGRect, tintColor: UIColor)->UIButton {
+    class func createImageTitleButton(image: UIImage, title: String, font: UIFont, frame: CGRect, tintColor: UIColor)->UIButton {
         
         let button = UIButton(frame: frame)
         button.contentMode = .scaleAspectFit

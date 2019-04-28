@@ -1,0 +1,10 @@
+framework module DYBadge {
+  umbrella header "DYBadge.h"
+
+  export *
+  module * { export * }
+}
+
+module DYBadge.__Swift {
+    exclude header "DYBadge-Swift.h"
+}
