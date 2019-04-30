@@ -78,7 +78,7 @@ Check out the following examples.
 
 ```
 
-![DYBadgeButton example](https://github.com/DominikButz/DYBadge.git/gitResources/DYBadgeExample1-small.gif "Badge Button example 1") 
+![DYBadgeButton example](https://raw.githubusercontent.com/DominikButz/DYBadge/master/gitResources/DYBadgeExample1-small.gif "Badge Button example 2") 
 
 ### Code example: Creating a button with image and title
 
@@ -103,7 +103,7 @@ Check out the following examples.
        self.secondButtonItem.customView = filterButton
 	}
 ```
-![DYBadgeButton example](./gitResources/DYBadgeExample2-small.gif "Badge Button example 2") 
+![DYBadgeButton example](https://raw.githubusercontent.com/DominikButz/DYBadge/master/gitResources/DYBadgeExample2-small.gif "Badge Button example 2") 
 
 
 ## Cocoapods 1.5 error workaround. 
