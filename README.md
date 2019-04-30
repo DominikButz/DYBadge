@@ -78,7 +78,7 @@ Check out the following examples.
 
 ```
 
-![DYBadgeButton example](./gitResources/DYBadgeExample1-small.gif "Badge Button example 1") 
+![DYBadgeButton example](https://github.com/DominikButz/DYBadge.git/gitResources/DYBadgeExample1-small.gif "Badge Button example 1") 
 
 ### Code example: Creating a button with image and title
 
